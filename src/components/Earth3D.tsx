@@ -8,10 +8,10 @@ import { TextureLoader } from 'three';
 
 // 地球纹理贴图 URLs
 const TEXTURES = {
-  earthColor: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=high%20resolution%20earth%20texture%20map%20with%20land%20and%20ocean%20details&image_size=landscape_4_3',
-  earthBump: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=earth%20bump%20map%20with%20topography%20details&image_size=landscape_4_3',
-  earthSpecular: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=earth%20specular%20map%20with%20ocean%20reflection&image_size=landscape_4_3',
-  clouds: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=earth%20clouds%20texture%20semi%20transparent&image_size=landscape_4_3'
+  earthColor: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ultra%20high%20resolution%20earth%20texture%20map%20with%20detailed%20countries%20and%20regions%20political%20map&image_size=landscape_4_3',
+  earthBump: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=earth%20bump%20map%20with%20detailed%20topography%20mountains%20and%20ocean%20depth&image_size=landscape_4_3',
+  earthSpecular: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=earth%20specular%20map%20with%20ocean%20reflection%20and%20land%20albedo&image_size=landscape_4_3',
+  clouds: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=realistic%20earth%20clouds%20texture%20semi%20transparent%20with%20detailed%20cloud%20patterns&image_size=landscape_4_3'
 };
 
 interface Earth3DProps {
